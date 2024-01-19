@@ -1,0 +1,35 @@
+@import "base";
+
+.App {
+    background-color: $Magnolia;
+
+    .box {
+
+        background-color: $White;
+    }
+
+    .multi-step-box {
+        background-image: url('../assets/images/bg-sidebar-desktop.svg');
+        background-position: bottom;
+        background-repeat: no-repeat;
+        
+
+        .circle {
+            // background-color: $Light-blue;
+            border: 1px solid $Alabaster ;
+            // color: $Alabaster;
+        }
+
+    }
+    .multi-step-mobile{
+        background-image: url('../assets/images/bg-sidebar-mobile.svg');
+        background-repeat: no-repeat;
+        width: 100%;
+    }
+   
+    .submit {
+        background-color: $Marine-blue;
+        color: $White;
+    }
+
+}

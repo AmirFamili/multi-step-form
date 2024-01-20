@@ -8,7 +8,7 @@ const ThankYou = () => {
 
             <img src={ThankYouImg} alt="Thank-you" />
             <h1 className="mt-8 ubuntu-bold">Thank you!</h1>
-            <p className="text-center mt-3 mx-10 max-sm:mx-1 text-gray-400">Thanks for confirming your subcription! We hope you have fun using our platform. If you ever need support, please feel free to email us at support@loremgaming.com. </p>
+            <p className="text-center mt-3 mx-32 max-sm:mx-1 text-gray-400">Thanks for confirming your subcription! We hope you have fun using our platform. If you ever need support, please feel free to email us at support@loremgaming.com. </p>
         </div>
     );
 }

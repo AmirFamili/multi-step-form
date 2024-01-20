@@ -5,7 +5,7 @@ const MultiStep = ({step}) => {
 
     return (
         <div className="multi-step-box  w-2/6 h-full rounded-xl max-md:hidden">
-            <div className='flex  pt-10 px-5'>
+            <div className='flex  pt-10 px-5 lg:ml-3'>
                 <div className={step===1?"circle text-blue-950 bg-blue-300 rounded-full w-8 h-8 flex justify-center items-center ":"text-white circle rounded-full w-8 h-8 flex justify-center items-center "}>1</div>
                 <div className=" text-white pl-3">
                     <p className='text-xs'>STEP 1</p>
@@ -14,7 +14,7 @@ const MultiStep = ({step}) => {
             </div>
 
 
-            <div className='flex  pt-5 px-5 '>
+            <div className='flex  pt-5 px-5 lg:ml-3'>
                 <div className={step===2?"circle text-blue-950 bg-blue-300 rounded-full w-8 h-8 flex justify-center items-center ":"text-white circle rounded-full w-8 h-8 flex justify-center items-center "}>2</div>
                 <div className=" text-white pl-3">
                     <p className='text-xs'>STEP 2</p>
@@ -24,7 +24,7 @@ const MultiStep = ({step}) => {
 
 
 
-            <div className='flex  pt-5 px-5'>
+            <div className='flex  pt-5 px-5 lg:ml-3'>
                 <div className={step===3?"circle text-blue-950 bg-blue-300 rounded-full w-8 h-8 flex justify-center items-center ":"text-white circle rounded-full w-8 h-8 flex justify-center items-center "}>3</div>
                 <div className=" text-white pl-3">
                     <p className='text-xs'>STEP 3</p>
@@ -33,7 +33,7 @@ const MultiStep = ({step}) => {
             </div>
 
 
-            <div className='flex  pt-5 px-5'>
+            <div className='flex  pt-5 px-5 lg:ml-3'>
                 <div className={step===4?"circle text-blue-950 bg-blue-300 rounded-full w-8 h-8 flex justify-center items-center ":"text-white circle rounded-full w-8 h-8 flex justify-center items-center "}>4</div>
                 <div className=" text-white pl-3">
                     <p className='text-xs'>STEP 4</p>
